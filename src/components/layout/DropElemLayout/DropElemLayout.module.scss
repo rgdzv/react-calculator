@@ -1,0 +1,43 @@
+.left {
+    width: 240px;
+}
+
+.right {
+    width: 243px;
+    height: 480px;
+    border: 2px dashed #C4C4C4;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 22px;
+        height: 22px;
+        margin: 0px 0px 12px 0px;
+    }
+
+    p {
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5D5FEF;
+        margin: 0px 0px 4px 0px;
+    }
+
+    span {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #6B7280;
+    }
+}
+

@@ -1,0 +1,41 @@
+.switcher {
+    max-width: 243px;
+    height: 38px;
+    background-color: #F3F4F6;
+    border-radius: 6px;
+    display: flex;
+    padding: 1px;
+}
+
+.runtime,
+.construct {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+    align-items: center;
+    padding: 0px 10px;
+    cursor: pointer; 
+
+    span {
+        font-weight: 500;
+        font-size: 14px;
+        color: #4D5562;
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+        margin: 0px 10px 0px 0px;
+        stroke: #4D5562;
+    }
+}
+
+.active {
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+    border-radius: 5px;
+
+    svg {
+        stroke:  #5D5FEF;
+    }
+}

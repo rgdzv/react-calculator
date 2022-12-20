@@ -1,0 +1,71 @@
+.button {
+    font-family: 'Inter';
+    height: 100%;
+    border: 1px solid #E2E3E5;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+
+.one {
+    grid-area: one
+}
+
+.two {
+    grid-area: two
+}
+
+.three {
+    grid-area: three
+}
+
+.four {
+    grid-area: four
+}
+
+.five {
+    grid-area: five
+}
+
+.six {
+    grid-area: six
+}
+
+.seven {
+    grid-area: seven
+}
+
+.eight {
+    grid-area: eight
+}
+
+.nine {
+    grid-area: nine
+}
+
+.zero {
+    grid-area: zero
+}
+
+.coma {
+    grid-area: coma
+}
+
+.equal {
+    background: #5D5FEF;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.runtime {
+
+    &:hover {
+        border: 2px solid #5D5FeF;
+    }
+
+    &:active {
+        background-color: #5D5FeF;
+        color: #FFFFFF;
+    }
+}
